@@ -9,10 +9,6 @@ const {
 
 
 
-console.log('db url: ', DATABASE_URL)
-
-
-
 module.exports = {
   development: {
     client: "postgresql",
