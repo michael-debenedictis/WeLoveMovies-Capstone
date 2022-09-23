@@ -7,6 +7,12 @@ const {
   DATABASE_URL = "postgresql://postgres@localhost/postgres",
 } = process.env;
 
+
+
+console.log('db url: ', DATABASE_URL)
+
+
+
 module.exports = {
   development: {
     client: "postgresql",
