@@ -14,8 +14,8 @@ build/
 # misc
 .eslintcache
 .DS_Store
-# excluded for thinkful: .env
-# excluded for thinkful: .env.*
+.env
+.env.*
 .idea/
 .vscode/
 .vercel
